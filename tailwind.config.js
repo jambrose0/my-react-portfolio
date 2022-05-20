@@ -10,12 +10,13 @@ module.exports = {
     },
     colors: {
       transparent: "transparent",
-      oxford: "#0A1128",
-      royal: "#001F54",
-      indigo: "#034078",
-      teal: "#1282A2",
+      black: "#000814",
+      oxford: "#001D3D",
+      royal: "#003566",
+      gold: "#FFC300",
+      yellow: "#FFD60A",
       white: "#FEFCFB",
-      red: "#FEFBFB",
+      red: "#FF2400",
     },
     borderRadius: {
       none: "0",
@@ -27,6 +28,9 @@ module.exports = {
     extend: {
       screens: {
         "3xl": "1600px",
+      },
+      backgroundImage: {
+        stars: "url('../src/assets/images/StarrySky.png')",
       },
     },
   },
