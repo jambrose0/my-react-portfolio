@@ -31,6 +31,8 @@ module.exports = {
       },
       backgroundImage: {
         stars: "url('../src/assets/images/StarrySky.png')",
+        blue: "url('../src/assets/images/blue-background.png')",
+        mtn: "url('../src/assets/images/mtnStars.png')",
       },
     },
   },
