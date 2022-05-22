@@ -36,6 +36,9 @@ module.exports = {
       image: {
         me: "url('../src/assets/images/jacob-ambrose.png')",
       },
+      spacing: {
+        bigspace: "100px",
+      },
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div>
+    <div className="bg-mtn w-screen fixed absolute fixed h-screen ">
       <Nav></Nav>
       <main>
         <About></About>
