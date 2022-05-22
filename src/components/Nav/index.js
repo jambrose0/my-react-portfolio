@@ -2,7 +2,7 @@ import resume from "../../assets/files/2022AmbroseWebResume.pdf";
 
 function Nav() {
   return (
-    <div className="mb-56">
+    <div className="mr-8 mb-10">
       <nav className="flex items-left justify-between flex-wrap ">
         <h1 className="flex items-left justify-between flex-wrap text-white hover:gap-10  text-3xl hover:text-purple hover:text-4xl">
           <a href="/">Jacob Ambrose</a>
@@ -29,6 +29,7 @@ function Nav() {
               src={resume}
               href={resume}
               target="_blank"
+              rel="noopener noreferrer"
               className=""
             >
               Resume

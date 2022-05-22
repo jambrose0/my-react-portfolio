@@ -3,7 +3,7 @@ import resume from "../../assets/files/2022AmbroseWebResume.pdf";
 
 function About() {
   return (
-    <div testid="#about" className="mt-56 flex flex-row  ">
+    <div testid="#about" className=" flex flex-row  ">
       <img
         src={me}
         className="m-5 rounded-lg box-content h-64 w-64  float-left border-4 border-gold"
@@ -22,8 +22,14 @@ function About() {
               jambrose0518@gmail.com.
             </a>{" "}
             Click{" "}
-            <a src={resume} href={resume} target="_blank" className="">
-              <span className="underline-offset-8 font-semibold">
+            <a
+              src={resume}
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
+              <span className="underline underline-offset-42font-semibold">
                 {" "}
                 here to get a copy of his resume{" "}
               </span>
