@@ -1,4 +1,5 @@
 import me from "../../assets/images/jacob-ambrose.png";
+import resume from "../../assets/files/2022AmbroseWebResume.pdf";
 
 function About() {
   return (
@@ -19,6 +20,13 @@ function About() {
             <a href="mailto: jambrose0518@gmail.com">
               {" "}
               jambrose0518@gmail.com.
+            </a>{" "}
+            Click{" "}
+            <a src={resume} href={resume} target="_blank" className="">
+              <span className="underline-offset-8 font-semibold">
+                {" "}
+                here to get a copy of his resume{" "}
+              </span>
             </a>
           </span>
         </p>

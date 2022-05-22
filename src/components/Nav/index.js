@@ -1,3 +1,5 @@
+import resume from "../../assets/files/2022AmbroseWebResume.pdf";
+
 function Nav() {
   return (
     <div className="mb-56">
@@ -22,7 +24,13 @@ function Nav() {
             </a>
           </li>
           <li className="row  mx-3  hover:text-gold hover:text-xl hover:text-3xl">
-            <a data-testid="resume" href="#resume" className="">
+            <a
+              data-testid="resume"
+              src={resume}
+              href={resume}
+              target="_blank"
+              className=""
+            >
               Resume
             </a>
           </li>
