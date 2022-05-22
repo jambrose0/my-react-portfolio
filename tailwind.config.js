@@ -7,6 +7,7 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
       "2xl": "1536px",
+      "3xl": "1600px",
     },
     colors: {
       transparent: "transparent",
@@ -27,13 +28,13 @@ module.exports = {
       full: "9999px",
     },
     extend: {
-      screens: {
-        "3xl": "1600px",
-      },
       backgroundImage: {
         stars: "url('../src/assets/images/StarrySky.png')",
         blue: "url('../src/assets/images/blue-background.png')",
         mtn: "url('../src/assets/images/mtnStars.png')",
+      },
+      image: {
+        me: "url('../src/assets/images/jacob-ambrose.png')",
       },
     },
   },

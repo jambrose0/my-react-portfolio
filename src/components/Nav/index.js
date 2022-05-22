@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <div className="bg-mtn my-50 w-screen fixed absolute fixed h-screen  ">
+    <div className="bg-oxford -my-50 w-screen fixed absolute fixed h-screen  ">
       <nav className="flex items-left justify-between flex-wrap ">
         <h1 className="flex items-left justify-between flex-wrap text-white hover:gap-10  text-3xl hover:text-purple hover:text-4xl">
           <a href="/">Jacob Ambrose</a>
