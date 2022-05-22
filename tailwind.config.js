@@ -17,6 +17,7 @@ module.exports = {
       yellow: "#FFD60A",
       white: "#FEFCFB",
       red: "#FF2400",
+      purple: "#BF40BF",
     },
     borderRadius: {
       none: "0",
