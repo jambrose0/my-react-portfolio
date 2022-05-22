@@ -1,25 +1,20 @@
 function Portfolio() {
   return (
-    <div className="flex justify-between grid grid-cols-3 gap-5 m-2">
-      <div className="h-80 w-80 text-center">
+    <div className="flex justify-between grid grid-cols-3 gap-5 m-2 border-2 border-gold">
+      <div className="text-center">
         <h2 className="font-bold  underline underline-offset-2">
           Budget Bucket
         </h2>
         <h3>PWA that lets you track your budget on the go!</h3>
-        <a
-          href="https://safe-sierra-22456.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=""
-        >
-          <img
+        <div className="bg-bucket">
+          {/* <img
             className="rounded-lg border-2 border-gold opacity-100 hover:opacity-75 "
             src={require("../../assets/images/portfolio/budget-screen.png")}
             alt="example of budget bucket usage"
-          ></img>
-        </a>
+          ></img> */}
+        </div>
       </div>
-      <div className="h-80 w-80 text-center">
+      {/* <div className="h-80 w-80 text-center">
         <h2 className="font-bold underline underline-offset-2">Date Dime</h2>
         <h3>Allows you to find dinner and a movie playing near you!</h3>
         <img
@@ -72,7 +67,7 @@ function Portfolio() {
           src={require("../../assets/images/portfolio/travel-screen.png")}
           alt="example of travel log usage"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 }
