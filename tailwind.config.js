@@ -32,13 +32,10 @@ module.exports = {
         stars: "url('../src/assets/images/StarrySky.png')",
         blue: "url('../src/assets/images/blue-background.png')",
         mtn: "url('../src/assets/images/mtnStars.png')",
-        // bucket: "url('../src/assets/images/portfolio/budget-bucket.png')",
+        // bucket: "url('../src/assets/images/portfolio/budget-screen.png')",
       },
       image: {
         me: "url('../src/assets/images/jacob-ambrose.png')",
-      },
-      spacing: {
-        bigspace: "100px",
       },
     },
   },

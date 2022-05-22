@@ -1,18 +1,23 @@
+// import bucket from "../../assets/images/portfolio/budget-screen.png";
+import github from "../../assets/icons/github-logo.png";
+
 function Portfolio() {
   return (
     <div className="flex justify-between grid grid-cols-3 gap-5 m-2 border-2 border-gold">
-      <div className="text-center">
-        <h2 className="font-bold  underline underline-offset-2">
+      <div className="h-80 w-80 text-center">
+        <h2 className="font-bold underline underline-offset-2">
           Budget Bucket
         </h2>
-        <h3>PWA that lets you track your budget on the go!</h3>
-        <div className="bg-bucket">
-          {/* <img
-            className="rounded-lg border-2 border-gold opacity-100 hover:opacity-75 "
-            src={require("../../assets/images/portfolio/budget-screen.png")}
-            alt="example of budget bucket usage"
-          ></img> */}
+        <h3>Allows you to find dinner and a movie playing near you!</h3>
+        <div
+          className=""absolute inset-0 bg-cover bg-center z-0" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/3/3c/JumanjiTheNextLevelTeaserPoster.jpg')"
+          // src={require("../../assets/images/portfolio/budget-screen.png")}
+          // alt="example of Budget Bucket usage"
+        >
         </div>
+          <div className="opacity-0">
+            <img>{github}</img>
+          </div>
       </div>
       {/* <div className="h-80 w-80 text-center">
         <h2 className="font-bold underline underline-offset-2">Date Dime</h2>
