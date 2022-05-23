@@ -10,11 +10,21 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   return (
     <div className="bg-mtn w-screen fixed absolute fixed text-white">
-      <Nav></Nav>
+      <Nav
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
       <main className="m-5">
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
+        {!contactSelected ? (
+          <>
+            <About></About>
+          </>
+        ) : (
+          <>
+            <Portfolio></Portfolio>
+            <Contact></Contact>
+          </>
+        )}
       </main>
       <footer>
         <Footer></Footer>

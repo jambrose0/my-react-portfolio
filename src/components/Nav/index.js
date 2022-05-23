@@ -2,6 +2,7 @@ import resume from "../../assets/files/2022AmbroseWebResume.pdf";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
+  const { contactSelected, setContactSelected } = props;
   return (
     <div className="mr-8 mb-10">
       <nav className="flex items-left justify-between flex-wrap ">
@@ -10,18 +11,27 @@ function Nav() {
         </h1>
         <ul className="flex items-right  flex-wrap text-white text-2xl  ">
           <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
-            <a data-testid="about" href="#about" className="">
+            <a
+              data-testid="about"
+              href="#about"
+              onClick={() => setContactSelected(false)}
+              className=""
+            >
               About Me
             </a>
           </li>
           <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
             <a data-testid="Portfolio" href="#Portfolio" className=" ">
-              Portfolio
+              <span onClick={setContactSelected(false)}>Portfolio</span>
             </a>
           </li>
-          <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
+          <li
+            className={` row  mx-3 hover:text-gold hover:text-3xl ${
+              contactSelected && "navActive"
+            } `}
+          >
             <a data-testid="contact" href="#contact" className="">
-              <span>Contact Me</span>
+              <span onClick={() => setContactSelected(true)}>Contact Me</span>
             </a>
           </li>
           <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
