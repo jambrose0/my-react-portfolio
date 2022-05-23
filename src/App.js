@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,10 +13,7 @@ function App() {
       <main className="m-5">
         <About></About>
         <Portfolio></Portfolio>
-<<<<<<< HEAD
         <Contact></Contact>
-=======
->>>>>>> parent of c13db4a (contact form appears and validates email)
       </main>
       <footer>
         <Footer></Footer>
