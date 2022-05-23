@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div className="bg-mtn w-screen fixed absolute fixed text-white">
       <Nav></Nav>
