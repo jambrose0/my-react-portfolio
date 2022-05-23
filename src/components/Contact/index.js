@@ -1,18 +1,11 @@
-import { validateEmail } from "../../utils/helpers";
+// import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-  const handleChange = (e) => {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      //   if (!isValid) {
-      //     setErrorMessage("Your email is invalid.");
-      //   } else {
-      //     setErrorMessage("");
-      //   }
-    }
-  };
   return (
-    <div className="rounded-lg   bg-oxford text-black w-full md:w-96 md:max-w-full mx-auto">
+    <div
+      id="contact"
+      className="rounded-lg   bg-oxford text-black w-full md:w-96 md:max-w-full mx-auto"
+    >
       <div className="p-6 border border-gold rounded-lg sm:rounded-md">
         <form>
           <label className="block mb-6">

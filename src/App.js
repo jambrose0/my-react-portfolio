@@ -1,3 +1,4 @@
+// import { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -11,7 +12,7 @@ function App() {
       <Nav></Nav>
       <main className="">
         <About></About>
-        <Portfolio className="flex justify-center"></Portfolio>
+        <Portfolio></Portfolio>
         <Contact></Contact>
       </main>
       <footer>

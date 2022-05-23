@@ -1,7 +1,13 @@
+// import { useState } from "react";
 import me from "../../assets/images/jacob-ambrose.png";
 import resume from "../../assets/files/2022AmbroseWebResume.pdf";
 
 function About() {
+  // const [formState, setFormState ] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // })
   return (
     <div testid="#about" className=" flex flex-row  ">
       <img
