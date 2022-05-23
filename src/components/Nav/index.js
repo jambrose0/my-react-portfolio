@@ -10,30 +10,21 @@ function Nav() {
         </h1>
         <ul className="flex items-right  flex-wrap text-white text-2xl  ">
           <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
-            <a
-              data-testid="about"
-              href="#about"
-              className=""
-              // onClick={() => setContactSelected(false)}
-            >
+            <a data-testid="about" href="#about" className="">
               About Me
             </a>
           </li>
-          <li className="row mx-3  hover:text-gold hover:text-xl  hover:text-3xl ">
+          <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
             <a data-testid="Portfolio" href="#Portfolio" className=" ">
               Portfolio
             </a>
           </li>
-          <li className="row  mx-3 hover:text-gold hover:text-xl hover:text-3xl">
-            <a
-              data-testid="contact"
-              href="#contact"
-              className={`${contactSelected && "navActive"}`}
-            >
-              {/* <span onClick={() => setSelected(true)}>Contact Me</span> */}
+          <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
+            <a data-testid="contact" href="#contact" className="">
+              <span>Contact Me</span>
             </a>
           </li>
-          <li className="row  mx-3  hover:text-gold hover:text-xl hover:text-3xl">
+          <li className=" row  mx-3 hover:text-gold hover:text-3xl ">
             <a
               data-testid="resume"
               src={resume}
