@@ -1,56 +1,208 @@
-// import bucket from "../../assets/images/portfolio/budget-screen.png";
-import github from "../../assets/icons/github-logo.png";
-
 function Portfolio() {
   return (
-    <div className="flex justify-between grid grid-cols-3 gap-5 m-2">
-      <div className="h-80 w-80 text-center">
-        <h2 className="font-bold  underline underline-offset-2">
-          Budget Bucket
-        </h2>
-        <h3>PWA that lets you track your budget on the go!</h3>
+    <div className="flex flex-wrap -mx-2 overflow-hidden">
+      {/* first project */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
         <a
           href="https://safe-sierra-22456.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className=""
+          className="hover:text-purple"
         >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            Budget Bucket
+          </h2>
+          <h3>PWA that lets you track your budget on the go!</h3>
+        </a>
+        <div className="flex  justify-center relative">
           <img
-            className="rounded-lg border-2 border-gold opacity-100 hover:opacity-75 "
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
             src={require("../../assets/images/portfolio/budget-screen.png")}
             alt="example of budget bucket usage"
           ></img>
+          <a
+            href="https://github.com/jambrose0/budget-bucket"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
+      </div>
+      {/* project 2 */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
+        <a
+          href="https://lyndsclev.github.io/date-dime/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple"
+        >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            Date Dime
+          </h2>
+          <h3>Allows you to find dinner and a movie playing near you!</h3>
         </a>
+        <div className="flex  justify-center relative">
+          <img
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
+            src={require("../../assets/images/portfolio/date-screen.png")}
+            alt="example of date dime usage"
+          ></img>
+          <a
+            href="https://github.com/lyndsclev/date-dime"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
       </div>
-      <div className="h-80 w-80 text-center">
-        <h2 className="font-bold underline underline-offset-2">Date Dime</h2>
-        <h3>Allows you to find dinner and a movie playing near you!</h3>
-        <img
-          className="rounded-lg border-2 border-gold "
-          src={require("../../assets/images/portfolio/date-screen.png")}
-          alt="example of Date Dime usage"
-        ></img>
+      {/* project 3 */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
+        <a
+          href="https://young-cove-35341.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple"
+        >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            Note Taker
+          </h2>
+          <h3>A simple note taking application</h3>
+        </a>
+        <div className="flex  justify-center relative">
+          <img
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
+            src={require("../../assets/images/portfolio/note-screen.png")}
+            alt="example of date dime usage"
+          ></img>
+          <a
+            href="https://github.com/jambrose0/note-taker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
       </div>
-      <div className="h-80 w-80 text-center">
-        <h2 className="font-bold  underline underline-offset-2">
-          Friend Finder
-        </h2>
-        <h3>The backend of a Twitter-esque social media platform</h3>
-        <img
-          className="rounded-lg border-2 border-gold "
-          src={require("../../assets/images/portfolio/friend-screen.png")}
-          alt="example of friend finder usage"
-        ></img>
+      {/* project 4 */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
+        <a
+          href="https://github.com/jambrose0/readme-generator/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple"
+        >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            ReadMe Generator
+          </h2>
+          <h3>A node.js readme generator- no more writers' block!</h3>
+        </a>
+        <div className="flex  justify-center relative">
+          <img
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
+            src={require("../../assets/images/portfolio/readme-screen.png")}
+            alt="example of readme generator usage"
+          ></img>
+          <a
+            href="https://github.com/jambrose0/readme-generator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
       </div>
-      <div className="h-80 w-80 text-center">
-        <h2 className="font-bold  underline underline-offset-2">Note Taker</h2>
-        <h3>An easy-to-use Note taking app!</h3>
-        <img
-          className="rounded-lg border-2 border-gold "
-          src={require("../../assets/images/portfolio/note-screen.png")}
-          alt="example of note taker usage"
-        ></img>
+      {/* project 5 */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
+        <a
+          href="https://github.com/jambrose0/friend-finder"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple"
+        >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            Friend Finder
+          </h2>
+          <h3>A mongoDB backend for a twitter-esque social media site.</h3>
+        </a>
+        <div className="flex  justify-center relative">
+          <img
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
+            src={require("../../assets/images/portfolio/friend-screen.png")}
+            alt="example of friend-finder usage"
+          ></img>
+          <a
+            href="https://github.com/jambrose0/friend-finder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
       </div>
+      {/* project 6 */}
+      <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
+        <a
+          href="http://travel-log-3000.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-purple"
+        >
+          <h2 className="font-bold  underline underline-offset-2 ">
+            Travel Log
+          </h2>
+          <h3>
+            A secure webpage for you to post your travels and map them out.
+          </h3>
+        </a>
+        <div className="flex  justify-center relative">
+          <img
+            className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
+            src={require("../../assets/images/portfolio/travel-screen.png")}
+            alt="example of friend-finder usage"
+          ></img>
+          <a
+            href="https://github.com/adambowers09/project2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              className=" opacity-0 hover:opacity-75"
+              src={require("../../assets/icons/github-logo.png")}
+              alt="github logo"
+            ></img>
+          </a>
+        </div>
+      </div>
+
+      {/* OLD BUDGET BUCKET 
       <div className="h-80 w-80 text-center">
         <h2 className="font-bold  underline underline-offset-2">
           ReadMe Generator
@@ -75,7 +227,7 @@ function Portfolio() {
           src={require("../../assets/images/portfolio/travel-screen.png")}
           alt="example of travel log usage"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 }

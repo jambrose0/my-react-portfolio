@@ -6,7 +6,7 @@ function About() {
     <div testid="#about" className=" flex flex-row  ">
       <img
         src={me}
-        className="m-5 rounded-lg box-content h-64 w-64  float-left border-4 border-gold"
+        className="m-5 rounded-lg box-content h-52 w-52  float-left border-4 border-gold"
         alt="Jacob Ambrose standing in front of a tree"
       />
 
