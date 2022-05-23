@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.b8432d52.css",
+    "main.js": "/my-react-portfolio/static/js/main.0a2eeab5.js",
+    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/travel-screen.png": "/my-react-portfolio/static/media/travel-screen.d706b155ad310dbd4b8a.png",
+    "static/media/mtnStars.png": "/my-react-portfolio/static/media/mtnStars.0884b37f96b8d4763534.png",
+    "static/media/2022AmbroseWebResume.pdf": "/my-react-portfolio/static/media/2022AmbroseWebResume.bf25f0acf5ea98db1204.pdf",
+    "static/media/jacob-ambrose.png": "/my-react-portfolio/static/media/jacob-ambrose.00189ec6af1e2557b341.png",
+    "static/media/date-screen.png": "/my-react-portfolio/static/media/date-screen.aaf58d0a084215bea382.png",
+    "static/media/friend-screen.png": "/my-react-portfolio/static/media/friend-screen.187e75a3023a3a81bea4.png",
+    "static/media/readme-screen.png": "/my-react-portfolio/static/media/readme-screen.58d178a4313bddb4572b.png",
+    "static/media/budget-screen.png": "/my-react-portfolio/static/media/budget-screen.98db288e5a8037ca0915.png",
+    "static/media/note-screen.png": "/my-react-portfolio/static/media/note-screen.71777b3264db1a3c2cf5.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.b8432d52.css.map": "/my-react-portfolio/static/css/main.b8432d52.css.map",
+    "main.0a2eeab5.js.map": "/my-react-portfolio/static/js/main.0a2eeab5.js.map",
+    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8432d52.css",
+    "static/js/main.0a2eeab5.js"
+  ]
+}
