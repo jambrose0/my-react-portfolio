@@ -135,24 +135,28 @@ function Portfolio() {
       {/* project 5 */}
       <div class="my-2 px-2 w-1/2 overflow-hidden h-96 w-96 text-center">
         <h2 className="font-bold  underline underline-offset-2 ">
-          Friend Finder
+          Garden Forum
         </h2>
-        <h3>A mongoDB backend for a twitter-esque social media site.</h3>
+        <h3>
+          A full-stack application that allows you to identify mystery plants in
+          your garden, take notes on them, and ask questions in an open forum
+          for tips on plant care.
+        </h3>
         <div className="flex  justify-center relative">
           <a
-            href="https://github.com/jambrose0/friend-finder"
+            href="https://gardenforum.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple"
           >
             <img
               className=" border-4 border-gold opacity-100 hover:opacity-25 absolute h-80 w-80"
-              src={require("../../assets/images/portfolio/friend-screen.png")}
+              src={require("../../assets/images/portfolio/garden-forum.png")}
               alt="example of friend-finder usage"
             ></img>
           </a>
           <a
-            href="https://github.com/jambrose0/friend-finder"
+            href="https://github.com/bdswartz/garden-forum"
             target="_blank"
             rel="noopener noreferrer"
           >
